@@ -32,6 +32,19 @@ CUDA_VISIBLE_DEVICES=0 python train.py --config_file configs/Market/vit_transrei
 CUDA_VISIBLE_DEVICES=0 python train.py --config_file configs/MSMT17/vit_transreid_stride.yml
 ```
 
+
+```bibtex
+@InProceedings{He_2021_ICCV,
+    author    = {He, Shuting and Luo, Hao and Wang, Pichao and Wang, Fan and Li, Hao and Jiang, Wei},
+    title     = {TransReID: Transformer-Based Object Re-Identification},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {15013-15022}
+}
+```
+
+
 ## Citation
 
 If you find this code useful for your research, please cite our paper
